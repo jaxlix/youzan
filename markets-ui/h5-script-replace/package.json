@@ -1,0 +1,16 @@
+{
+  "name": "h5-script-replace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "youzanyun dev -o sr",
+    "build": "youzanyun save -o sr"
+  },
+  "author": "youzanyun",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "vue": "2.5.16"
+  }
+}
