@@ -1,6 +1,7 @@
 const IP = "http://localhost:8000"
 
 const API = {
+  currentUser: IP + "/api/currentUser",
   queryReadPacks: IP + "/api/config/coupon/search",   //?shopId=${param.shopId}`
   queryActives: IP + "/api/config/search",  // ?shopId=${param.shopId}&pageNo=${param.pageNo}&pageNum=${param.pageNum}`
   updateActive: IP + "/api/config/update",  // post

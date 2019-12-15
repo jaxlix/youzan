@@ -7034,3 +7034,80 @@ ul, ol {
 .zent-upload-split {
   margin: 0 10px;
 }
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #222c34;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content{
+  margin: 24px;
+}
+
+.App-btns{
+  margin-bottom: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.caozuo{
+    color:#1890FF;
+}
+.caozuo>span{
+    cursor: pointer;
+    padding: 0 5px;
+}.contentWrap{
+    display: flex;
+}
+.left_wrap{
+    width: 370px;
+}
+.left_wrap>img{
+    width: 370px;
+}
+.formWrap{
+    flex: 1;
+    margin-left: 80px;
+}
+.form-item{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 24px;
+}
+.form-item>label{
+    line-height: 30px;
+}
+.form-item i{
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 18px;
+}
+.zent-radio-wrap{
+    line-height: 30px;
+}

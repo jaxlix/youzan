@@ -1,0 +1,30 @@
+.contentWrap{
+    display: flex;
+}
+.left_wrap{
+    width: 370px;
+}
+.left_wrap>img{
+    width: 370px;
+}
+.formWrap{
+    flex: 1;
+    margin-left: 80px;
+}
+.form-item{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 24px;
+}
+.form-item>label{
+    line-height: 30px;
+}
+.form-item i{
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 18px;
+}
+.zent-radio-wrap{
+    line-height: 30px;
+}
