@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Card, Table, Switch, Sweetalert } from 'zent';
 import API from '@/services/api'
-import { post, get, postJson } from '@/http/http';
+import { get, postJson } from '@/http/http';
 import './index.css';
 import 'zent/css/index.css';
 import moment from 'moment';

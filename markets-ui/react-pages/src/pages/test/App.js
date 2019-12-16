@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import API from '@/services/api'
-import { post, get } from '@/http/http';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css';
 import 'zent/css/index.css';
 
@@ -18,7 +16,7 @@ class App extends Component {
         <Router>
           <div>
             <Route path='/' component={Add} />
-            <Route path='/add' component={Add} />
+            <Route path='/add' component={Index} />
           </div>
         </Router>
       </div>

@@ -7085,10 +7085,16 @@ ul, ol {
     display: flex;
 }
 .left_wrap{
+    position: relative;
     width: 370px;
 }
 .left_wrap>img{
     width: 370px;
+}
+.left_wrap>img:last-child{
+    position: absolute;
+    width: 55px;
+    height: 55px;
 }
 .formWrap{
     flex: 1;
@@ -7110,4 +7116,10 @@ ul, ol {
 }
 .zent-radio-wrap{
     line-height: 30px;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
 }
