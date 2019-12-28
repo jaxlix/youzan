@@ -1,0 +1,110 @@
+.contentWrap{
+    display: flex;
+}
+.left_wrap{
+    position: relative;
+    width: 370px;
+}
+.left_wrap>img{
+    width: 370px;
+}
+.formWrap{
+    flex: 1;
+    margin-left: 100px;
+}
+.form-item{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 24px;
+    font-size: 14px !important;
+}
+.form-item>label{
+    line-height: 30px;
+    color: rgba(0, 0, 0, .8);
+    font-size: 14px !important;
+}
+.form-item i{
+  position: relative;
+  top: 5px;
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 18px;
+}
+.zent-radio-wrap{
+    line-height: 30px;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+.small_red_pk_icon{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+  }
+
+  .small_red_pk_icon_zidiyi{
+    position: absolute;
+    display: inline-block;
+    width: 50px !important;
+    height: 50px;
+  }
+  .left_top_zidiyi{
+    left: 40px;
+    top: 110px;
+  }
+  .left_down_zidiyi{
+    left: 40px;
+    top: 450px;
+  }
+  .right_top_zidiyi{
+    top: 110px;
+    right: 40px;
+  }
+  .right_down_zidiyi{
+    right: 40px;
+    top: 450px;
+  }
+  .coupon{
+    color: #40a9ff;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  .zent-input{
+    width: 275px !important;
+    height: 30px !important;
+    padding: 4px 11px !important;
+    border-radius: 4px !important;
+  }
+  .zent-select-text, .zent-select__popover{
+    width: 275px !important;
+  }
+  .zent-radio-wrap{
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  #http .zent-select{
+    width: 92px !important;
+    margin-right: 0;
+    background-color: #fafafa;
+  }
+  #http .zent-select-text{
+    width: 92px !important;
+    border-right: 0;
+  }
+  #http .zent-select__popover{
+    width: 92px !important;
+  }
+  #http .zent-input-wrapper{
+    width: 468px;
+  }
+  #http .zent-input-wrapper .zent-input{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    position: relative;
+    right: 1px;
+  }

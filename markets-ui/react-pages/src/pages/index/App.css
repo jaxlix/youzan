@@ -1,22 +1,65 @@
+html, body, #root{
+  width: 100%;
+  height: 100%;
+}
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #f0f2f5;
+}
+.App-content{
+  width: 100%;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-btns{
+  margin-bottom: 20px;
 }
 
 .App-link {
   color: #61dafb;
-  text-decoration: underline;
 }
-p {
-  margin: 10px;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}
+.form-content{
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  top: 200px;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 6px;
+  box-shadow: 3px 5px 8px rgba(0,0,0,.4);
+}
+.form-content .title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.form-content .form-item label{
+  width: 60px;
+  text-align: right;
+  color: #fff;
+}
+.form-content .form-item .btn{
+  display: block;
+  width: 273px;
+  margin-left: 60px;
+  color: #fff;
+  background-color: rgba(0,172,193,1);
 }
